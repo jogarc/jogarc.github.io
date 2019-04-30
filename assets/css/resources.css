@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+.navbar {
+    background-color: #D3B1D8;
+    overflow: hidden;
+    z-index: 1; 
+    top: 0; 
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: right;
+    color:black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+
+  }
+  
+  .navbar a:hover {
+    background-color: #965d79;
+    color: #3b3733;
+  }
+
+  #title{
+      padding: 18px;
+      font-size: 3em;
+      text-decoration: underline;
+      position: absolute;
+      text-align: center;
+      top:11%;
+      left:17.5%;
+}
+#side-title{
+    position: fixed;
+    text-transform: uppercase;
+    font-size: 2.4em;
+    left: 8%;
+    line-height: .7em;
+    top: 23%;
+}
+
+#tasty, #nyt{
+  box-shadow: 12px 10px 14px 0 lightgrey;
+  overflow: hidden;
+}
+#tasty{
+    position: absolute;
+    top:28%;
+    height: 200px;
+    width: 240px;
+    position: absolute;
+    left: 20%;
+    border: solid;
+    border-width: 3px;
+    border-color: #965d79;
+}
+
+
+#nyt{
+    position: absolute;
+    top:70%;
+    height: 200px;
+    width: 240px;
+    position: absolute;
+    left: 20%;
+    border: solid;
+    border-width: 3px;
+    border-color: #965d79;
+    
+}
+
+#rectangle-1{
+    width:50%;
+    height:20%;
+    top: 28%;
+    background: #D3B1D8;
+    border-style: solid;
+    border-color: #965d79;  
+    border-radius: 30px;
+    right: 7%;
+    position: absolute;
+}
+#rectangle-2{
+    width:50%;
+    height:24%;
+    top: 70%;
+    background: #D3B1D8;
+    border-style: solid;
+    border-color: #965d79;  
+    border-radius: 30px;
+    right: 7%;
+    position: absolute;
+}
+
+#button-1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #D3B1D8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+    top: 50%;
+    right: 24%; 
+    
+}
+#button-2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #D3B1D8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+    top: 96%;
+    right: 24%; 
+    border-spacing: 20px;
+    margin-bottom: 20px;
+}
+  
+  .button:hover {background-color: #965d79;
+        color:white;}
+  
+  .button:active {
+    background-color: #965d79;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    color: white;
+  }

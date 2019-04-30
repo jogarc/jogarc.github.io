@@ -1,0 +1,108 @@
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 35%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background: #D3B1D8;
+    border-right: 4px solid  #965d79; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.side-items {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #3b3733;
+    display: block;
+    position: fixed;
+    bottom: 8%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#home{
+    position: fixed;
+    left: 7%;
+}
+
+#resources{
+    position: fixed;
+    left: 20%;
+}
+
+#title{
+    font-size: 45px;
+    top:18%;
+    left:6%;
+    position: fixed;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+  /* When you mouse over the navigation links, change their color */
+  .side-items div:hover {
+    color: grey;
+    opacity: 0.5;
+}
+
+#profile_pic{
+    overflow:hidden;
+    position: fixed;
+    border: solid;
+    border-width: .5px;
+    border-color: #965d79; 
+    background-size: cover;
+    border-radius: 50%;
+    height:280px; 
+    position: fixed;
+    top:40%;
+    left: 7.5%;
+}
+
+.main {
+    margin-left: 60%; 
+    padding: 0px 10px;
+  }
+
+#rectangle{
+    width:50%;
+    height:33%;
+    top: 6%;
+    background: #D3B1D8;
+    border-style: solid;
+    border-color: #965d79;  
+    border-radius: 30px;
+    right: 7%;
+    position: absolute;
+}
+
+#ingredients{
+    margin: 2%;
+    position: absolute;
+    right: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#instructions{
+    margin: 5%;
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    right:-3%;
+    top:35%;
+    box-sizing: content-box; /* default */
+    width: 55%;
+    height: 60%;
+    padding: 10px;
+}
+
+#ending-remark{
+    position: absolute;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    bottom: -12%;
+    right: 23%;
+    padding: 2px;
+    font-size: 50px;
+    text-align: center;
+}
